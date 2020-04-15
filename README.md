@@ -1,14 +1,8 @@
-# UCI_ETL_Project_2019
-Extract, Transform, Load (ETL): Showing sports data for individually selected NBA games in the 2019-2020 season.
-
- 
 Abhishek Bhatt
 ETL Project
 16 November 2019
 OVERVIEW
-*E*xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin4, postgreSQL, etc).
-*T*ransform: what data cleaning or transformation was required.
-*L*oad: the final database, tables/collections, and why this was chosen.
+
 Extract
 JSON data was found at an NBA stats database (data.nba.net). This database contained detailed play-by-play information for each NBA game. CSV data for individual players and individual team was found at FiveThirtyEight (github.com/fivethirtyeight). The CSV data contained aggregated data point for individual players and teams over an entire season. Extracts for several individual games will be taken from the JSON location and single extract will be made from the CSV data as those cover an entire season.
 Transform
